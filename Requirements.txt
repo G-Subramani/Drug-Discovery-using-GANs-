@@ -1,5 +1,9 @@
+tensorflow==2.13.0       # Specify the version if needed
+keras==2.13.1           # Keras version compatible with TensorFlow
 numpy
 pandas
-keras
-tensorflow
+scikit-learn
+rdkit-pypi              # For SMILES handling and chemical validation
+matplotlib              # Optional for plotting
+seaborn                 # Optional for advanced visualizations
 -e .
